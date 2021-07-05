@@ -1,0 +1,113 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+.glyphicon {
+    top: 37px;
+}
+.navbar-nav {
+    margin-top: -30px;
+    height: 36px;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navbar {
+    min-height: 36px;
+    font-size: 12px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 3px 22px;
+}
+.bdvPages {
+    width: 150px;
+    height: 573px;
+    border: solid #CCC 1px;
+    float:left;
+    font-size: 12px;
+    border-left: 0px;
+    border-top: 0px;
+    padding-top: 24px;
+}
+
+.toolbarButton{
+    margin-top:17px;
+    cursor:pointer;
+}
+.pageLeft {
+    margin-top: 17px;
+    border: 1px #ccc solid;
+    height: 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    width:62px
+}
+.pageRight {
+    margin-top: 17px;
+    border: 1px #ccc solid;
+    height: 26px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left:13px !important;
+}
+.pageUp {
+    margin-top: 17px;
+    border: 1px #ccc solid;
+    height: 26px;
+    width: 26px;
+    border-radius: 4px;
+    padding-left: 6px !important;
+    cursor: pointer;
+}
+.pageDown {
+    margin-top: 17px;
+    border: 1px #ccc solid;
+    height: 26px;
+    width: 26px;
+    border-radius: 4px;
+    padding-left: 6px !important;
+    cursor: pointer;
+}
+
+.glyphicon {
+    top: 41px;
+    padding-left: 6px;
+   
+}
+.glyphicon-chevron-up:before {
+    content: "\E113";
+    margin-left: 3px;
+}
+.glyphicon-chevron-down:before {
+    content: "\E114";
+    margin-left: 3px;
+}
+.glyphicon-step-forward:before {
+    content: "\E077";
+    margin-left: 37px;
+}
+.btn {
+   
+    font-size: 12px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 7px;
+    margin-top: -5px;
+}

@@ -1,0 +1,29 @@
+﻿
+.pages {
+    visibility: visible;
+    width: 20%;
+    float: left;
+    height: 22px;
+    color: #236389;
+}
+.save {
+    visibility: visible;
+    width: 20%;
+    float: left;
+    height: 22px;
+    color: #236389;
+}
+.exit {
+    visibility: visible;
+    width: 20%;
+    float: left;
+    height: 22px;
+    color: #236389;
+}
+.cancel {
+    visibility: visible;
+    width: 20%;
+    float: left;
+    height: 22px;
+    color:#236389;
+}
